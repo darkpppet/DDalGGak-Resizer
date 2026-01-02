@@ -1,7 +1,15 @@
+# Editor Configurations
 .vs/
 .vscode/
 .idea/
 
+# Packed Files
 *.crx
 *.pem
 *.xpi
+
+# Intermediate Files
+*.zip
+
+# Artifacts
+out/

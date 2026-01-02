@@ -11,14 +11,14 @@
    2. **[개발자 모드]** 를 켭니다.
    3. **[압축해제된 확장 프로그램 로드]** - 폴더 선택
       - firefox 지원 때문에 **['background.scripts' requires manifest version of 2 or lower.]** 경고가 뜹니다.
-      - 무시하셔도 되지만, 거슬리신다면 manifest.json의 **"scripts": ["background.js"],** 를 지우시면 됩니다.
+      - 무시하셔도 됩니다.
    
  - Edge
    1. **[<edge://extensions/>]** 으로 이동합니다. (주소창)
    2. 좌측 중단 **[개발자 모드]** 를 켭니다.
    3. **[압축 풀린 파일 로드]** - 폴더 선택
       - firefox 지원 때문에 **['background.scripts' requires manifest version of 2 or lower.]** 오류가 뜹니다.
-      - 무시하셔도 되지만, 거슬리신다면 manifest.json의 **"scripts": ["background.js"],** 를 지우시면 됩니다.
+      - 무시하셔도 됩니다.
 
  - FireFox
    1. **[<about:debugging#/runtime/this-firefox>]** 로 이동합니다. (주소창)
