@@ -7,20 +7,20 @@
 #### 설치 방법
  1. 소스 폴더를 다운로드합니다. (src 폴더)
  - Chrome
-   2. <chrome://extensions/> 으로 이동합니다.
-   3. [개발자 모드]를 켭니다.
-   4. [압축해제된 확장 프로그램 로드] - 폴더 선택
-      - firefox 지원 때문에 ['background.scripts' requires manifest version of 2 or lower.] 경고가 뜹니다. 무시하셔도 됩니다.
+   1. **[<chrome://extensions/>]** 으로 이동합니다. (주소창)
+   2. **[개발자 모드]** 를 켭니다.
+   3. **[압축해제된 확장 프로그램 로드]** - 폴더 선택
+      - firefox 지원 때문에 **['background.scripts' requires manifest version of 2 or lower.]** 경고가 뜹니다. 무시하셔도 됩니다.
    
  - Edge
-   2. <edge://extensions/> 으로 이동합니다.
-   3. 좌측 중단 [개발자 모드]를 켭니다.
-   4. [압축 풀린 파일 로드] - 폴더 선택
-      - firefox 지원 때문에 ['background.scripts' requires manifest version of 2 or lower.] 오류가 뜹니다. 무시하셔도 됩니다.
+   1. **[<edge://extensions/>]** 으로 이동합니다. (주소창)
+   2. 좌측 중단 **[개발자 모드]** 를 켭니다.
+   3. **[압축 풀린 파일 로드]** - 폴더 선택
+      - firefox 지원 때문에 **['background.scripts' requires manifest version of 2 or lower.]** 오류가 뜹니다. 무시하셔도 됩니다.
 
  - FireFox
-   2. <about:debugging#/runtime/this-firefox> 로 이동합니다.
-   3. [임시 부가 기능 로드] - manifest.json 선택
+   1. **[<about:debugging#/runtime/this-firefox>]** 로 이동합니다. (주소창)
+   2. **[임시 부가 기능 로드]** - manifest.json 선택
 
  - 다른 브라우저
    - 고려하지 않았습니다.
